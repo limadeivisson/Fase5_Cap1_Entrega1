@@ -9,7 +9,7 @@
 # FarmTech Solutions: Previsão de Rendimento Agrícola com Machine Learning
 
 ## Fase 5 – Capítulo 1  
-Período: 09/09/2025 a 29/09/2025
+Período: 04/08/2025 a 09/09/2025
 
 ## 👨‍🎓 Integrantes do Grupo 64:
 - Deivisson Gonçalves Lima – RM565095 – [deivisson.engtele@gmail.com](mailto:deivisson.engtele@gmail.com)
