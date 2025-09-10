@@ -30,17 +30,9 @@ Período: 04/08/2025 a 09/09/2025
 Nesta entrega, a FarmTech Solutions atua em uma fazenda de médio porte (200 hectares) para aplicar **Machine Learning** na análise de dados climáticos e agrícolas.  
 O objetivo é prever o **rendimento da safra (Yield)** e identificar **tendências de produtividade** por meio de **clusterização**, de modo a apoiar a gestão agrícola com base em dados reais.
 
-A base utilizada foi o arquivo `crop_yield.csv`, com as seguintes variáveis:  
-- Cultura (Crop)  
-- Precipitação (mm/dia)  
-- Umidade específica a 2 metros (g/kg)  
-- Umidade relativa a 2 metros (%)  
-- Temperatura a 2 metros (°C)  
-- Rendimento (t/ha)
-
 ---
 
-## 🔧 Desenvolvimento
+## 🔧 Entrega 1 – Desenvolvimento de Machine Learning
 
 ### 💡 Desafio
 - Explorar e entender os dados fornecidos (EDA).  
@@ -65,13 +57,11 @@ A base utilizada foi o arquivo `crop_yield.csv`, com as seguintes variáveis:
 
 ## 📊 Bases de Dados
 
-As bases de dados utilizadas estão disponíveis na pasta `/data/` do repositório:
+As bases utilizadas estão disponíveis na pasta `/data/`:
 
 - `crop_yield.csv` – base principal fornecida pela FIAP  
-- `base_auxiliar_1.csv` – (descrição breve)  
-- `base_auxiliar_2.csv` – (descrição breve)  
-
-Essas bases são utilizadas diretamente no notebook para permitir a reprodutibilidade completa do trabalho.
+- `base_auxiliar_1.csv` – auxiliar  
+- `base_auxiliar_2.csv` – auxiliar  
 
 ---
 
@@ -99,6 +89,44 @@ Essas bases são utilizadas diretamente no notebook para permitir a reprodutibil
 
 ---
 
+## ☁️ Entrega 2 – Hospedagem em AWS
+
+Nesta etapa, simulamos o custo de hospedar a API da Machine Learning em instâncias **Amazon EC2** com configuração mínima:  
+
+- 2 vCPUs  
+- 1 GiB de memória  
+- Rede até 5 Gbps  
+- 50 GB de armazenamento (EBS)  
+- Sistema: Linux  
+
+### 🔎 Estimativa de Custos (On-Demand – 100%)
+Usando a **AWS Pricing Calculator**, obtivemos os seguintes valores:
+
+- **Região São Paulo (South America)**  
+  - Custo mensal: **USD 32.13**  
+  - Custo anual: **USD 385.56**  
+
+- **Região Virgínia do Norte (US East)**  
+  - Custo mensal: **USD 19.18**  
+  - Custo anual: **USD 230.16**  
+
+- **Resumo Total (comparativo)**  
+  - São Paulo + Virgínia = **USD 51.31/mês**  
+  - **USD 615.72/ano**  
+
+<p align="center">
+  <img src="imagens/CalculadoraAWS.png" alt="Estimativa de Custos AWS" width="800">
+</p>
+
+### 📌 Justificativa da Escolha
+Apesar da **Virgínia do Norte** apresentar custo mais baixo, optamos pela **região de São Paulo (Brasil)** devido a dois fatores:
+1. **Latência e desempenho** – acesso mais rápido aos dados dos sensores em território nacional.  
+2. **Regulamentação** – restrições legais quanto ao armazenamento de dados sensíveis no exterior.  
+
+Assim, o ambiente em **São Paulo** é a escolha recomendada, mesmo com custo superior.
+
+---
+
 ## 📂 Estrutura de Pastas
 
 ```
@@ -115,7 +143,8 @@ Essas bases são utilizadas diretamente no notebook para permitir a reprodutibil
 │   ├─ elbow.png
 │   ├─ silhouette.png
 │   ├─ comparacao_modelos.png
-│   └─ feature_importance.png
+│   ├─ feature_importance.png
+│   └─ CalculadoraAWS.png
 ├─ 📂assets/
 │   └─ logo-fiap.png
 ```
@@ -123,9 +152,8 @@ Essas bases são utilizadas diretamente no notebook para permitir a reprodutibil
 ---
 
 ## 🎥 Demonstração em Vídeo
-O vídeo demonstrando a solução (≤ 5 min) está disponível no YouTube em modo **não listado**:  
-👉 [Acessar vídeo da entrega](https://youtu.be/PNoiHHMQ2aw)  
-
+- **Entrega 1 (ML):** [Link YouTube – não listado](https://youtu.be/PNoiHHMQ2aw)  
+- **Entrega 2 (AWS):** [Link YouTube – não listado](https://youtube.com/...) *(a ser atualizado)*  
 
 ---
 
