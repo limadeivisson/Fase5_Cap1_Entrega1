@@ -153,7 +153,7 @@ Assim, o ambiente em **São Paulo** é a escolha recomendada, mesmo com custo su
 
 ## 🎥 Demonstração em Vídeo
 - **Entrega 1 (ML):** [Link YouTube – não listado](https://youtu.be/PNoiHHMQ2aw)  
-- **Entrega 2 (AWS):** [Link YouTube – não listado](https://youtube.com/...) *(a ser atualizado)*  
+- **Entrega 2 (AWS):** [Link YouTube – não listado](https://youtu.be/LCrLpFA9p9g) 
 
 ---
 
