@@ -116,15 +116,16 @@ Essas bases são utilizadas diretamente no notebook para permitir a reprodutibil
 │   ├─ silhouette.png
 │   ├─ comparacao_modelos.png
 │   └─ feature_importance.png
+├─ 📂assets/
+│   └─ logo-fiap.png
 ```
 
 ---
 
 ## 🎥 Demonstração em Vídeo
 O vídeo demonstrando a solução (≤ 5 min) está disponível no YouTube em modo **não listado**:  
-👉 [Acessar vídeo da entrega](https://youtube.com/...)  
+👉 [Acessar vídeo da entrega](https://youtu.be/PNoiHHMQ2aw)  
 
-*(Link será atualizado após upload.)*
 
 ---
 
